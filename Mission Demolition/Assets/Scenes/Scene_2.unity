@@ -445,7 +445,7 @@ MonoBehaviour:
   numClouds: 40
   minPos: {x: -20, y: -5, z: -5}
   maxPos: {x: 300, y: 40, z: 5}
-  scaleRange: {x: 1, y: 4}
+  scaleRange: {x: 2, y: 5}
 --- !u!4 &778390544
 Transform:
   m_ObjectHideFlags: 0
@@ -816,3 +816,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050706725}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &298724012323978964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580699048838478536, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055744000416173670, guid: 832d52f52b42a69408201f849e321409, type: 3}
+      propertyPath: m_Name
+      value: Castle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 832d52f52b42a69408201f849e321409, type: 3}
